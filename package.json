@@ -1,0 +1,22 @@
+{
+  "name": "poc-agenda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "agenda": "ts-node agenda.ts",
+    "agenda2": "ts-node agenda2.ts",
+    "calculate": "ts-node calculate.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "agenda": "^2.3.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0"
+  }
+}
